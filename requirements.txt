@@ -1,0 +1,5 @@
+jsonrpclib
+poster
+progressbar
+pycurl
+pydes

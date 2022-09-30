@@ -86,7 +86,7 @@ class	AgileCLU:
 
 		# initialize the logger for session
 		if cfg.getboolean("Logging", "enabled" ):
-			hdlr = logging.FileHandler( '/var/log/agileclu.log' )
+			hdlr = logging.FileHandler( cfg.get("Logging", "logfile") )
 			formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
 			hdlr.setFormatter(formatter)
 			logger.addHandler(hdlr)

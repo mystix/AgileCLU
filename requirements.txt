@@ -1,5 +1,8 @@
 jsonrpclib
 poster
 progressbar
-pycurl
 pydes
+
+# requires libcurl4-openssl-dev
+pycurl
+
